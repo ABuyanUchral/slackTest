@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-border {
+    border-radius: 50px;
+    margin-top: .5rem;
+    padding: 0 2.225rem;
+}
+
+.learn-bg {
+    background-color: #f4ede4;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 80%;
+}
+
+.pink-bg {
+    background-color: #f4ede4;
+    height: 100%;
+    width: 100%;
+}
+
+.emoji {
+    display: block;
+    max-width: 90.25rem;
+    height: 480px;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: -1
+}
+
+/* 
+.emoji-images:nth-of-type(1) {
+    top: 150px;
+    right: 3.5%;
+    animation: scale-out-center .66s;
+}
+
+.emoji-images:nth-of-type(2) {
+    top: 242px;
+    left: 3%;
+    animation: scale-out-center 1.26s;
+}
+
+.emoji-images:nth-of-type(3) {
+    top: 233px;
+    right: 8%;
+    animation: scale-out-center .86s;
+}
+
+.emoji-images:nth-of-type(4) {
+    top: 32px;
+    left: 3%;
+    animation: scale-out-center .46s;
+}
+
+.emoji-images:nth-of-type(5) {
+    top: 46px;
+    right: 9%;
+    animation: scale-out-center 1.06s;
+}
+
+.emoji-images:nth-of-type(6) {
+    top: 163px;
+    left: 7%;
+    animation: scale-out-center 1.46s;
+} */
+.blog-block {
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.blog-block:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.purple-bg {
+    background-color: #4a154b;
+    border: none;
+    clip-path: ellipse(75% 100% at center top);
+    height: auto;
+    min-height: 370px;
+}
+
+.talk {
+    outline: solid 1px white;
+
+}
+
+.talk:hover {
+    outline: 2px solid white;
+    transition: 0.1s linear;
+}
