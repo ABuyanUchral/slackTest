@@ -99,3 +99,13 @@
     outline: 2px solid white;
     transition: 0.1s linear;
 }
+
+.header-talk {
+    outline: solid 1px #611f69;
+    color: #611f69;
+}
+
+.header-talk:hover {
+    outline: 2px solid #611f69;
+    transition: 0.1s linear;
+}

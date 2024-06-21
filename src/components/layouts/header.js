@@ -1,7 +1,6 @@
 import React from "react";
 
 
-
 function Header() {
     return (
         <header>
@@ -17,9 +16,9 @@ function Header() {
                         </svg>
                     </button>
                     <div class="flex items-center lg:order-2 header-buttons">
-                        <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 font-bold">Sign in</a>
-                        <a class="ml-6 talk bg-transparent hover: text-fuchsia-900 font-semibold hover:text-fuchsia py-2 px-4 border-2 border-fuchsia-900 hover: rounded">TALK TO SALES</a>
-                        <a class="ml-6 started hover: bg-fuchsia-900 text-fuchsia-50 font-semibold hover:text-fuchsia py-2 px-4 border border-fuchsia-900 hover: rounded">GET STARTED </a>
+                        <a href="signin" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800 font-bold">Sign in</a>
+                        <a class="header-talk ml-2 bg-transparent text-white font-semibold py-2 px-4 rounded uppercase">Talk to sales</a>
+                        <a class="ml-6 bg-fuchsia-900 hover:bg-fuchsia-950 duration-100 text-white py-2 px-4 rounded uppercase font-semibold">Get Started</a>
                     </div>
                     <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
                         <ul class="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 font-bold">
@@ -45,7 +44,7 @@ function Header() {
                     </div>
                 </div>
             </nav>
-        </header>
+        </header >
     );
 }
 

@@ -10,7 +10,7 @@ export default function Modal() {
                 type="button"
                 onClick={() => setShowModal(true)}
             >
-                <p className="flex items-center"> <Globe2 /> <span className="ml-1 font-bold">Change Region</span></p>
+                <p className="flex items-center text-slate-500"> <Globe2 /> <span className="ml-1 font-bold">Change Region</span></p>
             </button>
             {showModal ? (
                 <>
