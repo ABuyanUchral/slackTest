@@ -2,7 +2,20 @@ import { React, useState } from "react";
 import Modal from "../Modal";
 import { Linkedin, Instagram, Facebook, TwitterX, Youtube, Tiktok, CloudArrowDown } from "react-bootstrap-icons";
 
+// ! explanation: хэрэггүй олон мөр сод бичхийн оронд map ашишлана.
+// {
+//     test.map((value, index) => {
+//         return (
+//             <li className="mb-4" key={index}>
+//                 <a href="_" class="hover:text-cyan-900">{value}</a>
+//             </li>
+//         )
+//     })
+// }
+
 function Footer() {
+    const test = ['test1', 'test2', 'test3', 'test4', 'test5', 'test6', 'test7', 'test8', 'test1', 'test2', 'test3', 'test4', 'test5', 'test6', 'test7', 'test8',]
+
     return (
         <footer class="bg-white dark:bg-gray-900">
             <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
@@ -27,11 +40,18 @@ function Footer() {
                         <div>
                             <h2 class="mb-6 text-sm font-bold text-gray-900 uppercase">Product</h2>
                             <ul class="text-gray-500 dark:text-gray-400 font-medium">
-                                <li class="mb-4">
+                                {
+                                    test.map((value, index) => {
+                                        return (
+                                            <li className="mb-4" key={index}>
+                                                <a href="_" class="hover:text-cyan-900">{value}</a>
+                                            </li>
+                                        )
+                                    })
+                                }
+
+                                {/* <li class="mb-4">
                                     <a href="" class="hover:text-cyan-900">Watch Demo</a>
-                                </li>
-                                <li className="mb-4">
-                                    <a href="" class="hover:text-cyan-900">Pricing</a>
                                 </li>
                                 <li class="mb-4">
                                     <a href="" class="hover:text-cyan-900">Paid vs. Free</a>
@@ -71,7 +91,7 @@ function Footer() {
                                 </li>
                                 <li className="mb-4">
                                     <a href="" class="hover:text-cyan-900">Trust</a>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         <div>

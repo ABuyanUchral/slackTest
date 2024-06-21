@@ -17,9 +17,7 @@ const router = createBrowserRouter([{
 }
 ])
 
-root.render(
-  <RouterProvider router={router} />
-);
+root.render(<RouterProvider router={router} />);
 
 
 reportWebVitals();

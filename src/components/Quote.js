@@ -1,6 +1,13 @@
 import React from "react";
 import { ArrowRight } from 'react-bootstrap-icons';
 
+// ! explanation: video tag not working. Please fix it
+// <video autoplay loop muted className="rounded-r-full" title="Video featuring a Slack customer">
+//   <source src="https://a.slack-edge.com/1b4e2a3/marketing/img/homepage/true-prospects/customer-showcase/IBM_08.mp4" type="video/mp4"></source>
+// </video>
+
+// ! explanation: 'flex flex' this is not good type it twice.
+// <a class="flex flex items-center group text-cyan-500 transition-all duration-300 ease-in-out" href="https://slack.com/integrations"></a> 
 
 const Quote = ({ }) => {
     return (
